@@ -1,0 +1,48 @@
+:root{
+  --primary:#0f0f1a;
+  --accent:#e94560;
+  --green:#22c55e;
+}
+
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  background:linear-gradient(135deg,#070b16,#0b1220);
+  color:#eaf0ff;
+  overflow-x:hidden;
+}
+
+*{box-sizing:border-box}
+
+/* Scrollbar (dark) */
+*::-webkit-scrollbar{width:10px;height:10px}
+*::-webkit-scrollbar-track{background:rgba(255,255,255,.06)}
+*::-webkit-scrollbar-thumb{background:rgba(233,69,96,.45);border-radius:999px;border:2px solid rgba(7,11,22,.9)}
+
+/* Buttons hover */
+button{transition:transform .12s ease,background .12s ease,box-shadow .12s ease}
+button:hover{transform:translateY(-1px)}
+
+a{color:inherit}
+
+/* Generic page wrapper */
+.sp-page{animation:fadeIn .3s ease}
+
+/* Spinner */
+.sp-spinner{
+  width:44px;height:44px;
+  border-radius:999px;
+  border:4px solid rgba(255,255,255,.10);
+  border-top-color:var(--accent);
+  animation:spSpin .9s linear infinite;
+}
+@keyframes spSpin{to{transform:rotate(360deg)}}
+
+/* Mobile responsive */
+@media(max-width:860px){
+  .sp-page{padding:14px}
+}
+

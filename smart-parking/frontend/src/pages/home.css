@@ -1,0 +1,21 @@
+/* C:\Users\User\Desktop\PK\smart-parking\frontend\src\pages\home.css */
+.sp-home{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:28px;background:linear-gradient(135deg,#0b1220,#111b2e);color:#eaf0ff;font-family:system-ui}
+.sp-hero{max-width:920px;text-align:center;margin-bottom:28px}
+.sp-hero-title{font-size:48px;letter-spacing:0.5px;margin:0 0 10px;animation:fadeInUp .8s ease both}
+.sp-hero-subtitle{font-size:18px;margin:0 0 22px;color:rgba(234,240,255,.85);animation:fadeInUp .8s ease both .12s}
+.sp-hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.sp-btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:10px 18px;border-radius:14px;font-weight:700;transition:transform .15s ease,box-shadow .15s ease,background .15s ease}
+.sp-btn-primary{background:#4f7cff;color:#fff;box-shadow:0 12px 32px rgba(79,124,255,.25)}
+.sp-btn-secondary{background:rgba(255,255,255,.08);color:#eaf0ff;border:1px solid rgba(255,255,255,.16)}
+.sp-btn:hover{transform:translateY(-3px)}
+.sp-features{width:100%;max-width:980px;display:grid;grid-template-columns:repeat(3,minmax(220px,1fr));gap:16px}
+.sp-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:18px;backdrop-filter:blur(10px);box-shadow:0 18px 40px rgba(0,0,0,.25);transition:transform .18s ease}
+.sp-card:hover{transform:translateY(-6px)}
+.sp-card h3{margin:0 0 10px;font-size:18px}
+.sp-card p{margin:0;color:rgba(234,240,255,.82);line-height:1.4}
+.sp-anim-in{animation:fadeInUp .75s ease both}
+.sp-card-delay{animation-delay:.08s}
+.sp-card-delay2{animation-delay:.16s}
+@keyframes fadeInUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@media (max-width:900px){.sp-features{grid-template-columns:1fr}.sp-hero-title{font-size:36px}}
+

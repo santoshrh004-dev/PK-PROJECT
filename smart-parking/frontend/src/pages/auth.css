@@ -1,0 +1,15 @@
+/* C:\Users\User\Desktop\PK\smart-parking\frontend\src\pages\auth.css */
+.sp-auth-wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;background:linear-gradient(135deg,#0b1220,#111b2e);}
+.sp-auth-card{width:100%;max-width:460px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:20px 18px;backdrop-filter:blur(10px);box-shadow:0 20px 50px rgba(0,0,0,.3);color:#eaf0ff;}
+.sp-auth-card h2{margin:0 0 14px;font-size:28px}
+.sp-auth-form{display:flex;flex-direction:column;gap:10px}
+.sp-auth-form label{font-size:14px;color:rgba(234,240,255,.85)}
+.sp-auth-form input{padding:10px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.08);color:#eaf0ff;outline:none}
+.sp-auth-form input:focus{border-color:rgba(79,124,255,.8)}
+.sp-auth-error{background:rgba(255,75,75,.12);border:1px solid rgba(255,75,75,.35);padding:10px;border-radius:12px;color:#ffb3b3}
+.sp-btn{cursor:pointer;border:none}
+.sp-btn-primary{background:#4f7cff;color:#fff;padding:11px;border-radius:14px;font-weight:800;box-shadow:0 12px 32px rgba(79,124,255,.25)}
+.sp-auth-foot{margin-top:12px;color:rgba(234,240,255,.8);font-size:14px}
+.sp-auth-foot a{color:#9fb7ff;text-decoration:none;font-weight:700}
+.sp-auth-foot a:hover{text-decoration:underline}
+
